@@ -5,6 +5,7 @@ import org.junit.jupiter.api.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+@Disabled("Skip all")
 @Tag("2")
 public class SecondJunitTest {
     private static final Logger LOG = LoggerFactory.getLogger(SecondJunitTest.class);
